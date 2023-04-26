@@ -8,8 +8,14 @@ body {
 }
 
 #top-of-page {
-	padding-top: 5%;
-	margin-bottom: 5%;
+    color: white;
+	padding-top: 7%;
+	padding-bottom: 7%;
 	text-align: center;
+    background-image: url("images/war.webp");
+    text-shadow: 2px 2px #ff0000;
 }
 
+#title {
+    margin-bottom: 3%;
+}
