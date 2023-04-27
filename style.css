@@ -1,5 +1,5 @@
-body {
-	height:100%; /* remove later */
+body, html {
+    height: 100%;
 }
 
 #center-column {
@@ -14,6 +14,11 @@ body {
 	text-align: center;
     background-image: url("images/war.webp");
     text-shadow: 2px 2px #ff0000;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #title {
